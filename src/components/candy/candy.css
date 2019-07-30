@@ -1,0 +1,29 @@
+.candy-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.candy-card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 25%;
+    min-width: 25%;
+    max-height: auto;
+    min-height: auto;
+    margin: 20px;
+}
+.candy-img {
+    padding: 10px;
+}
+.candy-title {
+    padding: 10px;
+    max-width: 95%;
+    text-align: center;
+}
+.candy-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
